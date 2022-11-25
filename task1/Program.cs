@@ -5,11 +5,12 @@ Console.Write("Введите второе число: ");
 int number2 = Convert.ToInt32(Console.ReadLine());
 if (number1 > number2)
 {
-    Console.Write("Первое число больше: ");
+    Console.Write("Первое число больше второго: ");
     Console.WriteLine(number1);
+
 }
 else
 {
-    Console.Write("Второе число больше: ");
+    Console.Write("Второе число больше первого: ");
     Console.WriteLine(number2);
 }
